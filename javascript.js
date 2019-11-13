@@ -40,10 +40,7 @@ function showPlayerHand(playerSelection) {
     const playerHand = document.createElement('span');
     left.classList.add('left');
     playerHand.classList.add('playerHand');
-<<<<<<< HEAD
     playerHand.id = `playerHand${roundNumber + 1}`;
-=======
->>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
     playerHand.textContent = playerSelection;
     left.append(playerHand);
     scoreReport.append(left);
@@ -69,10 +66,7 @@ function showComputerHand(computerSelection) {
     const computerHand = document.createElement('span');
     right.classList.add('right');
     computerHand.classList.add('computerHand');
-<<<<<<< HEAD
     computerHand.id = `computerHand${roundNumber}`;
-=======
->>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
     computerHand.textContent = computerSelection;
     right.append(computerHand);
     scoreReport.append(right);
@@ -89,7 +83,6 @@ function updateScore(playerSelection, computerSelection) {
     } else if ((playerSelection == 'Rock' && computerSelection == 'Scissors')
         || (playerSelection == 'Paper' && computerSelection == 'Rock')
         || (playerSelection == 'Scissors' && computerSelection == 'Paper')) {
-<<<<<<< HEAD
         document.getElementById(`playerHand${roundNumber}`).classList.add('upperHand');
         document.getElementById('playerScore').textContent = (++playerScore).toString();
         return;
@@ -97,11 +90,6 @@ function updateScore(playerSelection, computerSelection) {
         document.getElementById(`computerHand${roundNumber}`).classList.add('upperHand');
         document.getElementById('computerScore').textContent = (++computerScore).toString();
         return;
-=======
-        return document.getElementById('playerScore').textContent = (++playerScore).toString();
-    } else {
-        return document.getElementById('computerScore').textContent = (++computerScore).toString();
->>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
     }
 }
 
