@@ -156,6 +156,15 @@ img {
     padding: 0 10px;
 }
 
+<<<<<<< HEAD
+.upperHand {
+    border: 2px solid black;
+    font-weight: bold;
+    color: #FF4500; /* Orange red */;
+}
+
+=======
+>>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
 /* after game is over */
 .gameOver {
     margin-bottom: 50px;
@@ -307,11 +316,21 @@ footer {
     }
 
     .playerHand, .computerHand {
+<<<<<<< HEAD
+        border-radius: 3px;
+=======
         border-radius: 1px;
+>>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
         font-size: 0.8em;
         padding: 0 3px;
     }
 
+<<<<<<< HEAD
+    .upperHand {
+        border: 1px solid black;
+    }
+=======
+>>>>>>> 3803f206d10eb96bc2f830fc0601eb861cbad090
     .gameOver {
         margin-bottom: 30px;
     }
