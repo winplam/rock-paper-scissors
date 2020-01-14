@@ -8,6 +8,8 @@ The scoreboard keeps track the score and highlights the winner of each draw.
 
 @media queries were used to give the page some responsiveness although more work will need to be done to make it truly mobile friendly.
 
+### [Play in Browser](https://winplam.github.io/rock-paper-scissors/)
+
 ## Screenshots
 ![Desktop](/screenshots/rock-paper-scissors-page.png)
 
