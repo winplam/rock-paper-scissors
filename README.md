@@ -14,7 +14,7 @@ The scoreboard keeps track the score and highlights the winner of each draw.
 ![Desktop](/screenshots/rock-paper-scissors-page.png)
 
 ## Technologies Used
-Made with HTML 5 and CSS 5 on Webstorm ID.
+Made with HTML 5 and CSS 3 on Webstorm IDE.
 
 ## Features Wish List
 * Improve @media queries to rearrange elements to fit better on mobile devices
